@@ -56,3 +56,49 @@ console.log(arr);
 console.log(arr[0]);
 console.log(arr[2]);
 console.log(arr[4]);
+
+//function
+function add(a,b){
+  c=a+b;
+  return c;
+}
+
+console.log(add(3,4));
+
+//if else
+let age=18;
+if(age>18)
+{
+  console.log("Adult");
+}
+else if(age==18)
+{
+  console.log("Teen");
+}
+else
+{
+  console.log("Kid");
+}
+
+//loops
+let arr1=[1,2,3,4,5,6,7];
+
+//for loop
+for(let i=0; i<arr1.length; i++)
+{
+  console.log(arr1[i]);
+}
+
+//for each loop
+arr1.forEach(function(element)
+{
+  console.log(element);
+})
+
+//while loop
+let j=0;
+while(j<arr1.length)
+{
+  console.log(arr1[j]);
+  j++;
+}
